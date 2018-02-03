@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Dhurjati');
+.content {
+ display: flex;
+ font-family: 'Dhurjati', sans-serif;
+}
+.nav-column {
+ border-color: #0040FF;
+ border-width: 3px;
+ border-style:solid;
+}
+.button {
+ margin-top: 10px;
+ margin-bottom: 15px;
+ border-radius: 3px;
+ box-shadow: 3px 3px;
+ border-style: solid;
+ border-color: #0040FF;
+ border-left-width: 4px;
+ border-top-width: 2px;
+ padding: 10px;
+ font-size: 18px;
+}
+.header {
+ font-size:28px;
+ width: 100%;
+ display: flex;
+ color: red;
+}
+.hp {
+ flex-direction: row;
+}
+.second {
+ display: flex;
+ justify-content: flex-start;
+}
+.pic1 {
+ width:100%;
+ margin:5px;
+}
+.images {
+ display: flex;
+ width: 100%;
+}
+footer {
+ margin-top: 34px;
+ background-color: #0B0B61;
+ display: flex;
+ align-items: center;
+ color: black;
+ font-family: 'Droid Sans', sans-serif;
+ height: 105px;
+ width: 100%;
+}
+.socibanner {
+ flex:5;
+ order:1;
+ flex-direction: column;
+}
+.foottext {
+ color: white;
+ flex:2;
+ order:2;
+ clear: both;
+ flex-direction: column;
+ padding-top: 3px
+}
+.footpic {
+ display: block;
+ float: left;
+ width:33px;
+ margin-left:10px;
+ margin-right: 10px;
+ height:auto;
+}
+.footpic2 {
+ display: block;
+ float: left;
+ width:140px;
+ margin-left:10px;
+ margin-right: 10px;
+ margin-top: 9px;
+ height:auto;
+}
